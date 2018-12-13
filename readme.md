@@ -113,7 +113,7 @@ window.onload = function () {
 ```
 
 ## Bring It ALL Together
-Update the `<head></head>` element to be:
+Update the `<head></head>` element in `index.html` to be:
 ```html
 <head>
     <title>School Project</title>
