@@ -3,7 +3,8 @@ window.onload = function () {
     // get all the div elements with `class="paragraph"`
     var all_paragraphs = document.getElementsByClassName("paragraph");
 
-    var countFunction = function () {
+    // function to increment the number in clicks-count element
+    var incrementCountFunction = function () {
         // get the clicks-count element
         var clicksCountElement = document.getElementById("clicks-count");
 
@@ -11,7 +12,7 @@ window.onload = function () {
         var clicksCount = parseInt(clicksCountElement.textContent);
 
         // increment the clicks-count value
-        clicksCount = clicksCount + 2;
+        clicksCount = clicksCount + 1;
 
         // write the new clicks-count value
         clicksCountElement.innerHTML = clicksCount;
@@ -22,6 +23,6 @@ window.onload = function () {
         // count like a software engineer!
         // counting starts at 0
         // so the first paragraph is the 0th paragraph, second is the 1st, etc...
-        all_paragraphs[i].addEventListener('click', countFunction);
+        all_paragraphs[i].addEventListener('click', incrementCountFunction);
     }
 }
