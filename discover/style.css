@@ -1,14 +1,10 @@
 body {
-    /*
-    uncomment this!
-    background-color: gold;
-    */
+    /* uncomment the following line */
+    /* background-color: gold;    */
 }
 
 div {
-    /*
-    uncomment this!
-    background-color: honeydew;
-    padding: 10px;
-    */
+    /* uncomment the following two lines */
+    /* background-color: honeydew;
+    padding: 10px; */
 }

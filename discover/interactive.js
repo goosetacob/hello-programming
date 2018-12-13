@@ -7,13 +7,24 @@ window.onload = function () {
         //console.log(this);
 
         // uncomment this, what happens?
-        //formData = new FormData(this);
+        //var formData = new FormData(this);
 
         // uncomment this, what happend?
         //console.log(formData.get("firstname"));
         //console.log(formData.get("lastname"));
 
         // uncomment this, what happens?
-        //alert("Hello" + formData.get("firstname") + formData.get("lastname") + ",what did you eat for breakfast?!");
+        //alert("Hello " + formData.get("firstname") + " " + formData.get("lastname") + ", what did you eat for breakfast?!");
+
+        // create a video element
+        // var videoElement = document.createElement("iframe");
+        // videoElement.width = 420;
+        // videoElement.height = 315;
+        // videoElement.src = "https://www.youtube.com/embed/7vlSdLatXow";
+
+        // append our secret video
+        // var allDivElements = document.getElementsByTagName("div");
+        // var firstDivElement = allDivElements[0];
+        // firstDivElement.append(videoElement);
     }
 }
