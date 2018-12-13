@@ -121,3 +121,5 @@ Update the `<head></head>` element to be:
     <script src="interactive.js"></script>
 </head>
 ```
+## It's ALIVE!
+Now that we understand all the moving parts, lets create these files and see it in action!
