@@ -1,0 +1,27 @@
+body {
+    background-color: lightgrey;
+}
+
+h3 {
+    color: indigo;
+}
+
+h3 a {
+    color: lightcoral;
+}
+
+div.paragraph {
+    background-color: lightsalmon;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+div#first {
+    outline-style: dotted;
+    outline-color: aqua;
+}
+
+div#second {
+    outline-style: dashed;
+    outline-color: greenyellow;
+}
